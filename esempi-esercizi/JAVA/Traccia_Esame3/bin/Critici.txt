@@ -1,0 +1,8 @@
+Valore:1
+Valore:1
+Valore:2
+Valore:2
+Valore:3
+Valore:3
+Valore:1
+Valore:1

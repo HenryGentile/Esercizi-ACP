@@ -1,0 +1,61 @@
+[
+    {
+        "Modello": "TOYOTA AYGO",
+        "Targa" : "EG971HD",
+        "prezzoGiornoNoleggio" : "34", 
+        "NumPasseggeri" : "5", 
+        "Alimentazione" : "Benzina",
+        "PotenzaMotore" : "72",
+        "Noleggi" : [{"DataRitiro": "2023-07-10", "DataConsegna":"2023-07-19", "Prezzo": "100"}]
+    },
+
+    {
+        "Modello": "FIAT 500",
+        "Targa" : "EG006KB",
+        "prezzoGiornoNoleggio" : "34", 
+        "NumPasseggeri" : "3", 
+        "Alimentazione" : "Benzina",
+        "PotenzaMotore" : "60",
+        "Noleggi" : []
+    },
+
+    {
+        "Modello": "OPEL CORSA",
+        "Targa" : "EG019TH",
+        "prezzoGiornoNoleggio" : "37", 
+        "NumPasseggeri" : "5", 
+        "Alimentazione" : "Diesel",
+        "PotenzaMotore" : "80",
+        "Noleggi" : []
+    },
+
+    {
+        "Modello": "FORD FOCUS SW",
+        "Targa" :"EG170RL" ,
+        "prezzoGiornoNoleggio" : "66", 
+        "NumPasseggeri" : "5", 
+        "Alimentazione" : "Benzina",
+        "PotenzaMotore" : "80",
+        "Noleggi" : []
+    },
+
+    {
+        "Modello": "PEUGEOT 308",
+        "Targa" : "EG256MM",
+        "prezzoGiornoNoleggio" : "49", 
+        "NumPasseggeri" : "4", 
+        "Alimentazione" : "GPS",
+        "PotenzaMotore" : "76",
+        "Noleggi" : []
+    },
+
+    {
+        "Modello": "CITROEN BERLINGO",
+        "Targa" : "EG841HK",
+        "prezzoGiornoNoleggio" : "82", 
+        "NumPasseggeri" : "5", 
+        "Alimentazione" : "Benzina",
+        "PotenzaMotore" : "90",
+        "Noleggi" : []
+    }
+]

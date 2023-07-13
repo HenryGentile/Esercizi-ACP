@@ -1,0 +1,15 @@
+1o comdando:2
+2o comdando:1
+3o comdando:2
+4o comdando:1
+5o comdando:2
+6o comdando:3
+7o comdando:2
+8o comdando:3
+9o comdando:1
+10o comdando:2
+11o comdando:0
+12o comdando:1
+13o comdando:1
+14o comdando:0
+15o comdando:3

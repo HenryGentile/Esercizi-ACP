@@ -1,0 +1,7 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\apache-activemq-5.15.0\\activemq-all-5.15.0.jar",
+        "c:\\apache-activemq-5.15.0\\bin\\activemq.jar"
+    ]
+}

@@ -1,0 +1,6 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\jms1.1\\lib\\javax.jms.jar"
+    ]
+}

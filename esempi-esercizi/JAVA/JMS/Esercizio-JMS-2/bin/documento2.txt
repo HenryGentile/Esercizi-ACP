@@ -1,0 +1,27 @@
+UPDATES N.1
+startSensor
+UPDATES N.2
+stopSensor
+stopSensor
+startSensor
+UPDATES N.3
+stopSensor
+stopSensor
+startSensor
+UPDATES N.4
+read
+startSensor
+startSensor
+UPDATES N.5
+read
+startSensor
+startSensor
+UPDATES N.6
+startSensor
+read
+read
+UPDATES N.7
+startSensor
+read
+UPDATES N.8
+startSensor

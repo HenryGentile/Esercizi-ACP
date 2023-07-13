@@ -1,0 +1,340 @@
+
+.container {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(255, 255, 255);
+    margin: 0px;
+    box-shadow: 0px 5px rgba(000000, 000000, 000000, 0.5);
+    position: relative;
+}
+
+.Body{
+    height: 550px;
+    width: 100%;
+    background-image: url("../images/sfondoBody.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0px 5px rgb(255, 255, 255);
+
+}
+
+.name{
+
+    text-align: left;
+    position: static;
+    font-family: system-ui;
+    font-weight: bold;
+    color:rgb(60, 60, 206);
+    float: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2.3em;
+}
+
+.intestazione{
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+.logo {
+    margin-left: 1%;
+    margin-right: 3%;
+    float: left;
+    height: 70px;
+}
+
+.postilla {
+    text-align: left;
+    position: static;
+    font-family: math;
+    color:rgb(60, 60, 206);
+    float: left;
+    font-size: 1.5em;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.input-logReg{
+    list-style: none;
+    float: right;
+    margin: 0px 3% 0px 0px;
+    display: flex;
+}
+
+.input-logReg li{
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.input-logReg input {
+    height: 25px;
+}
+
+
+input#PasswordInput{
+    -webkit-text-security: disc;
+}
+
+
+button#login{
+    background-color: white;
+    border-color: rgb(4, 4, 109);
+    border-radius: 5px;
+    height: 30px;
+    color: rgb(4, 4, 109);
+}
+
+
+button#registrazione {
+    color: white;
+    background-color: rgb(4, 4, 109);
+    border-color: rgb(4, 4, 109);
+    border-radius: 5px;
+    height: 30px;
+}
+
+
+.visualizza{
+    padding: 20px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+}
+
+
+.frase{
+    text-align: center;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-family: system-ui;
+    color: white;
+    margin: 0px;
+    text-shadow: -1px 0 10px #000000, 0 1px 10px #000000, 1px 0 10px #000000, 0 -1px 10px #000000;
+    margin-bottom: 20px;
+}
+
+.elencoAuto{
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 30px;
+    background-color: rgba(4, 4, 109, 0.7);
+    height: 100%;
+    width: 75%;
+    border-radius: 10px;
+}
+
+
+
+.ricercaParametri{
+
+    display: flex;
+    float: left;
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.ricercaParametri li{
+    padding: 2% 5% 2% 5%;
+    list-style: none;
+    opacity: 1;
+    width: 30%;
+}
+
+.ricercaParametri li p{
+    margin: 0px 0px 3px 0px;
+    font-weight: bold;
+    font-family: math;
+    font-size: 1.7em;
+    color: white;
+}
+
+.ricercaParametri input{
+    width: 100%;
+    height: 40px;
+}
+
+
+
+footer{
+    
+    margin: 0px;
+}
+
+.box{
+    border-top: 3px solid black;
+    background-color: rgb(4, 4, 109);
+    height: 170px;
+}
+
+
+footer .Support {
+    float: right;
+    padding: 3% ;
+    width: 40%;
+    font-size: 1.2em;
+    color: white;
+    
+}
+
+footer .contact {
+    float: left;
+    padding: 3% ;
+    font-size: 1.2em;
+    color: white;
+    width: 30%;
+}
+
+li {
+  list-style: none;
+}
+
+footer .Support .left {
+  float: left;
+  color: white;
+  font-weight: bold;
+}
+
+footer .Support .right {
+  float: right;
+  color: white;
+  font-weight: bold;
+}
+
+.left a{
+    text-decoration: none;
+    color: white;
+}
+
+.right a{
+    text-decoration: none;
+    color: white;
+}
+
+/*
+    * Regolo gli eventuali bug della schermata quando viene ridotta
+*/
+
+
+@media screen and (max-width:1240px){
+    
+    /*
+    * corregge il problema dello spostamento irregolare/sovrapposizione dei bottoni
+    * ristabilendo la prorpietà block alla lista e ridisponendo i valori in verticale
+    */
+
+    .ricercaParametri{
+        display: block;
+    }
+
+    .elencoAuto{
+        overflow-x: scroll;
+    }
+
+    .ricercaParametri li{
+        width: 90%;
+    }
+
+    /*
+        * Facciamo scomparire i'intestazione portando la sua posizione a absolute e 
+        * spostandolo a sinistra di tanto in modo che non influisca più sulla pagina
+    */
+    .intestazione{
+        position: absolute;
+        left: -9999px
+    }
+
+    .Body{
+        height: 100%;
+    }
+
+}
+
+
+
+@media screen and (max-width:800px){
+    
+    /*
+        * rriducaimo le dimensioni delle caselle input
+    */
+
+    .input-logReg input {
+        width:80px;
+    }
+
+    
+
+}
+
+
+
+/*
+    * Sono definite le proprietà di particolari classi che non sono
+    * presenti nel file html ma vengono generate dinamicamente a seguito 
+    * di funionalità presenti nel file javascript
+*/
+
+.elencoAuto{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    float: left;
+    background-color: rgba(4, 4, 109, 0.7);
+    height: 100%;
+    width: 75%;
+    border-radius: 10px;
+    justify-content: center;
+}
+
+.cerca{
+
+    width: 200px;
+    height: 80px;
+    background-color: white;
+    color: rgb(4, 4, 109);
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.ParcoAuto{
+
+    color: white;
+
+    text-align: left;
+
+    width: 100%;
+}
+
+.ParcoAuto th{
+    padding: 6px;
+}
+
+.ParcoAuto td{
+    padding: 6px;
+}
+
+.IntestazioneColonne{
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: rgb(4, 4, 109);
+    border-radius: 10px 0px 10px 0px;
+}
+
+.OddRow{
+
+    background-color: rgb(183, 191, 228);
+    font-size: 1.2em;
+    /*text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;*/
+}
+
+.EvenRow{
+
+    background-color: rgb(43, 68, 121);
+    font-size: 1.2em;
+    /*text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;*/
+}

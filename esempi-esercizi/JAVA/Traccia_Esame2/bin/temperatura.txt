@@ -1,0 +1,14 @@
+temperatura:44
+temperatura:35
+temperatura:1
+temperatura:38
+temperatura:22
+temperatura:9
+temperatura:17
+temperatura:11
+temperatura:20
+temperatura:33
+temperatura:11
+temperatura:35
+temperatura:30
+temperatura:33
